@@ -41,9 +41,14 @@ Esta coleção de projetos oferece as seguintes funcionalidades:
 -   **Aprendizado de Máquina:** scikit-learn, TensorFlow, Keras
 -   **Visualização de Dados:** Matplotlib, Seaborn, Plotly
 
-## EXPLICAÇÃO DOS SCRIPTS:
+# EXPLICAÇÃO DOS SCRIPTS:
 
-# 1. Explorador Interativo de Aglomerados de Galáxias (galaxy_explorer.py)
-Este script carrega dados de galáxias do SDSS, que incluem suas posições celestes (ascensão reta e declinação) e redshift (desvio para o vermelho, indicando distância). Ele converte essas coordenadas para um sistema 3D e, em seguida, utiliza o algoritmo de agrupamento K-Means para identificar e visualizar grupos de galáxias que representam aglomerados cósmicos.
-Importância de Estudo: É fundamental para entender a estrutura em larga escala do universo, como as galáxias se agrupam sob a influência da gravidade e da matéria escura, formando filamentos, paredes e aglomerados. A visualização 3D é crucial para explorar essa distribuição complexa.
+## 1. Explorador Interativo de Aglomerados de Galáxias (galaxy_explorer.py)
+**Este script carrega dados de galáxias do SDSS, que incluem suas posições celestes (ascensão reta e declinação) e redshift (desvio para o vermelho, indicando distância). Ele converte essas coordenadas para um sistema 3D e, em seguida, utiliza o algoritmo de agrupamento K-Means para identificar e visualizar grupos de galáxias que representam aglomerados cósmicos.
+**Importância de Estudo: É fundamental para entender a estrutura em larga escala do universo, como as galáxias se agrupam sob a influência da gravidade e da matéria escura, formando filamentos, paredes e aglomerados. A visualização 3D é crucial para explorar essa distribuição complexa.
 ![image](https://github.com/user-attachments/assets/1b6bd227-3a6e-46bf-a56b-8b4bf156ae4f)
+
+## 2. Simulador Básico de Lentes Gravitacionais Fracas (grav_lens_sim.py)
+** Este script simula o efeito de distorção que uma massa invisível (como um aglomerado de matéria escura) exerceria sobre a luz de um objeto de fundo (como uma galáxia distante ou uma grade). Ele demonstra como a imagem do objeto de fundo é esticada e curvada à medida que sua luz passa perto da massa da lente.
+** Importância de Estudo: As lentes gravitacionais são uma ferramenta essencial na astronomia para detectar e mapear a matéria escura, pois é através da sua influência gravitacional na luz que a matéria escura se torna "visível". Este projeto ilustra visualmente esse fenômeno crucial.
+![image](https://github.com/user-attachments/assets/3cfd2f69-ea7e-4c9d-85b3-af2809b0437f)
