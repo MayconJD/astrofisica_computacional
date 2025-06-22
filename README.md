@@ -82,3 +82,12 @@ Representa a fronteira da análise automatizada de imagens astronômicas usando 
 ![image](https://github.com/user-attachments/assets/1452274a-e85d-4c1a-bfd9-632ddbe8d052)
 ![image](https://github.com/user-attachments/assets/9e334e0c-7fff-4477-a44f-88aefd35b831)
 ![image](https://github.com/user-attachments/assets/218c0eb1-598a-429c-9256-f8fbc98c5684)
+
+## 7.Explorador Interativo de Galáxias por Redshift (`galaxy_redshift_explorer.py`)
+Este script fornece uma interface gráfica interativa (GUI) que permite ao usuário explorar o catálogo SDSS de galáxias por faixas de redshift. Ao selecionar um intervalo, o aplicativo exibe informações importantes sobre as galáxias nesse volume (como número, magnitude e cor médias) e oferece botões para gerar visualizações. As opções de plotagem incluem a distribuição 3D das galáxias no espaço, um gráfico de magnitude aparente vs. redshift, e o crucial diagrama cor-magnitude (Magnitude Absoluta vs. Cor), que revela as populações estelares das galáxias. 
+
+É uma ferramenta excelente para **exploração e visualização de dados astronômicos em grande escala**, permitindo que pesquisadores (ou estudantes) investiguem volumes cósmicos específicos. A capacidade de filtrar por redshift e visualizar distribuições espaciais, bem como diagramas fundamentais como o cor-magnitude (que mostra a evolução das galáxias), é essencial para o trabalho com catálogos de galáxias e para a compreensão da estrutura e evolução do universo.
+![image](https://github.com/user-attachments/assets/1c4ad2d8-a791-4032-99d3-78c002ebb990)
+![image](https://github.com/user-attachments/assets/a3a07ecb-4e5e-4eda-a42a-673b3f25f612)
+![image](https://github.com/user-attachments/assets/9f26651c-dc29-4f15-9250-72b11c528ffe)
+![image](https://github.com/user-attachments/assets/ba7d4bea-6142-49c1-902d-cad5ba9610ab)
